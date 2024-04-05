@@ -1,0 +1,48 @@
+@import 'ppal.scss';
+
+.card--simple{
+    @include card();
+    @include disp-flex-row;
+
+    align-items: center;
+    justify-content: space-between;
+
+    .buttons{
+        @include disp-flex-row;
+        gap: 0.5rem;
+        align-items: center;
+
+        .check{
+            border: 0.2rem $black solid;
+            height: 2rem;
+            width: 2rem;
+            @include disp-flex-column;
+            align-items: center;
+            justify-content: center;
+            border-radius: 0.2rem;
+
+            svg{
+                color: green;
+                height: 2rem;
+                width: 2rem;
+            }
+            
+        }
+    }
+}
+
+main{
+    @include disp-flex-column;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    gap: 1rem;
+}
+
+.buttons svg{
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.dispNone{
+    display: none;
+}

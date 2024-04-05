@@ -1,0 +1,153 @@
+/*This sass file contains the principal styles that are shared by all the files in this webpage.*/
+
+
+//Variables
+//Colors
+$ppal-color: #F34027;
+$ppal-color--light: #FBC4BC;
+$secondary-color: #F38CB2;
+$secondary-color--light: #FED5E1;
+$white: #F0F0F0;
+$white-transparent: #f0f0f0b2;
+$black: #262626;
+
+
+
+//Mixins
+@mixin button($border-color: $black){
+    border: solid $border-color 0.1rem;
+    box-shadow: 0 0.4rem 0 0 $border-color;
+    border-radius: 0.3rem;
+}
+
+@mixin div-3d($border-color: $black){
+    border: solid $border-color 0.1rem;
+    box-shadow: 0 0.2rem 0 0 $border-color;
+    border-radius: 0.3rem;
+}
+
+@mixin card($width:100%, $border-color: $black, $background-color:$white){
+    width: $width;
+    height: 99%;
+    padding: 1.5rem 2.5rem;
+    background-color: $background-color;
+    text-align: justify;
+    @include div-3d($border-color)
+}
+
+@mixin header-footer{
+    background-color: $black;
+    color: $white;
+    height: 6rem;
+}
+
+@mixin disp-flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin disp-flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+/*Fonts*/
+@font-face {
+    font-family: 'Roboto';
+    src: url("./../fonts/RobotoSlab-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Gagalin';
+    src: url("./../fonts/Gagalin-Regular.otf");
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    color: $black;
+    width: 100%;
+    font-size: 62.5%;
+    background-image: url("./../imgs/hanami.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    @include disp-flex-column();
+    justify-content: space-between;
+}
+
+p, li{
+    font-family: 'Roboto';
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+h1, h2, h3, h4, h5{
+    font-family: 'Gagalin';
+    margin-bottom: 0.6rem;
+}
+
+header{
+    @include header-footer();
+    @include disp-flex-row();
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+
+    .logo{
+        font-size: 2rem;
+        color: $secondary-color;
+
+        label{
+            color: $ppal-color;
+        }
+    }
+
+    nav{
+        @include disp-flex-row();
+        width: 75%;
+        height: 3rem;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 2rem;
+        background-color: $ppal-color;
+        border-radius: 0.5rem;
+        
+        ul{
+            @include disp-flex-row();
+            gap: 0.5rem;
+            
+
+            li{
+                @include disp-flex-column();
+                justify-content: center;
+                font-size: 1rem;
+                list-style: none;
+                width: 6rem;
+                height: 2rem;
+                text-align: center;
+                @include button($black);
+
+                position: relative;
+                bottom: 0.1rem;
+            }
+        }
+    }
+}
+
+main{
+    background-color: $white-transparent;
+    padding: 0rem 10rem;
+    height: 100%;
+
+}
+
+footer{
+    @include header-footer();
+}
+
