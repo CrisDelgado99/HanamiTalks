@@ -36,6 +36,7 @@ class GrammarController extends Controller
         return GrammarResource::collection($grammars);
     }
 
+//TODO elimina el código innecesario
     /**
      * Show the form for creating a new resource.
      */
@@ -68,6 +69,7 @@ class GrammarController extends Controller
         return new GrammarResource($grammar);
     }
 
+//TODO elimina el código innecesario
     /**
      * Show the form for editing the specified resource.
      */

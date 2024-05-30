@@ -18,6 +18,7 @@ class GrammarUseController extends Controller
         return GrammarUseResource::collection($grammarUses);
     }
 
+//TODO elimina el código innecesario
     /**
      * Show the form for creating a new resource.
      */
@@ -32,6 +33,7 @@ class GrammarUseController extends Controller
     public function store(GrammarUseRequest $request)
     {
         $grammarUseNew = new GrammarUse();
+        //TODO fíjate que las siguientes líneas de código son muy similares a las que tienes en el update, considera encapsularlo en una función y llamar a esa función tanto en el store como en el update.
         $grammarUseNew->title = $request->title;
         $grammarUseNew->description = $request->description;
         $grammarUseNew->example = $request->example;
@@ -51,6 +53,7 @@ class GrammarUseController extends Controller
         return new GrammarUseResource($grammarUse);
     }
 
+//TODO elimina el código innecesario
     /**
      * Show the form for editing the specified resource.
      */

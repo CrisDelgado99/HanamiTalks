@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+//TODO elimina el código innecesario.
 // use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;

@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use App\Http\Requests\KanjiRequest;
 use App\Http\Resources\KanjiResource;
 use App\Models\Kanji;
+
+//TODO elimina el código innecesario
 use Illuminate\Http\Request;
 
 class KanjiController extends Controller
@@ -17,7 +19,7 @@ class KanjiController extends Controller
         $kanjis = Kanji::all();
         return KanjiResource::collection($kanjis);
     }
-
+//TODO  me da la sensación que esta función es similar a la que tienes en GrammarController. Revísalo y si está duplicada quita una de las dos.
     public function getAllTopicTitles()
     {
         $topicTitles = Kanji::select('topicTitle', 'level')
@@ -36,6 +38,7 @@ class KanjiController extends Controller
         return KanjiResource::collection($kanjis);
     }
 
+//TODO elimina el código innecesario
     /**
      * Show the form for creating a new resource.
      */
@@ -71,6 +74,7 @@ class KanjiController extends Controller
         return new KanjiResource($kanji);
     }
 
+//TODO elimina el código innecesario
     /**
      * Show the form for editing the specified resource.
      */
@@ -87,6 +91,7 @@ class KanjiController extends Controller
         $kanjiUpdate = Kanji::find($idKanji);
         
         $kanjiUpdate->symbol = $request->symbol;
+        //TODO fíjate que las siguientes líneas de código son muy similares a las que tienes en el store, considera encapsularlo en una función y llamar a esa función tanto en el store como en el update.
         $kanjiUpdate->kunyomi = $request->kunyomi;
         $kanjiUpdate->onyomi = $request->onyomi;
         $kanjiUpdate->translation = $request->translation;

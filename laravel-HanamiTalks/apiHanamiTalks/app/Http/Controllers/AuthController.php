@@ -6,6 +6,7 @@ use App\Http\Requests\UserRequest;
 use App\Http\Resources\UserResource;
 use App\Models\User;
 use Illuminate\Http\Request;
+//TODO elimina el código innecesario.
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 
@@ -13,6 +14,7 @@ class AuthController extends Controller
 {
     public function register(UserRequest $request)
     {
+        //TODO esta validación está demás si usas la request adecuadamente.
         $data = $request->validated();
         $user = User::create([
             'username' => $request->username,

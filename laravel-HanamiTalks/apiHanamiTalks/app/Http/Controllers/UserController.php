@@ -7,7 +7,7 @@ use App\Http\Resources\UserResource;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
-
+//TODO este controlador es muy similar al de AuthController, considera mover este código al AuthController.
 class UserController extends Controller
 {
     /**

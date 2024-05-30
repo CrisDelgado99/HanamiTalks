@@ -3,9 +3,11 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\VocabularyRequest;
+//TODO elimina el código innecesario.
 use App\Http\Resources\KanjiResource;
 use App\Http\Resources\VocabularyResource;
 use App\Models\Vocabulary;
+//TODO elimina el código innecesario.
 use Illuminate\Http\Request;
 
 class VocabularyController extends Controller
@@ -36,7 +38,7 @@ class VocabularyController extends Controller
         $vocabularies = Vocabulary::where('topicTitle', $topicTitle)->get();
         return VocabularyResource::collection($vocabularies);
     }
-
+//TODO elimina el código innecesario.
     /**
      * Show the form for creating a new resource.
      */
@@ -71,7 +73,7 @@ class VocabularyController extends Controller
         $kanji = Vocabulary::find($idVocabulary);
         return new VocabularyResource($kanji);
     }
-
+//TODO elimina el código innecesario.
     /**
      * Show the form for editing the specified resource.
      */
@@ -86,7 +88,7 @@ class VocabularyController extends Controller
     public function update(VocabularyRequest $request, $idVocabulary)
     {
         $vocabularyUpdate = Vocabulary::find($idVocabulary);
-        
+        //TODO este código es muy similar al del store, considera crear una función y llamar a esa función desde el store y desde el update.
         $vocabularyUpdate->word = $request->word;
         $vocabularyUpdate->kana = $request->kana;
         $vocabularyUpdate->romaji = $request->romaji;
