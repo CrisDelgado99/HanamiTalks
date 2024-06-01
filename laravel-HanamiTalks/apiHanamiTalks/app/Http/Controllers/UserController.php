@@ -32,6 +32,7 @@ class UserController extends Controller
         if (!$userUpdate) {
             return response()->json(['error' => 'User not found'], 404);
         }
+
     
         $userUpdate->username = $request->username;
         $userUpdate->nickname = $request->nickname;
@@ -53,5 +54,5 @@ class UserController extends Controller
     
         return new UserResource($userUpdate); 
     }
-    
+
 }

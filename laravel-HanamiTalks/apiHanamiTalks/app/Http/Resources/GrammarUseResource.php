@@ -19,7 +19,7 @@ class GrammarUseResource extends JsonResource
             "title" => $this->title,
             "description" => $this->description,
             "example" => $this->example,
-            "grammars" => $this->grammars
+            "grammar_id" => $this->grammar_id
         ];
     }
 }

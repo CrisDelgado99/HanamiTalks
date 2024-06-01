@@ -27,7 +27,7 @@ class UserResource extends JsonResource
             'image' => $this->image,
             'kanjis' => $this->kanjis,
             'vocabularies' => $this->vocabularies,
-            'grammars' => $this->grammars
+            'grammars' => $this->grammars,
         ];
     }
 }
