@@ -14,7 +14,7 @@ class GrammarUseController extends Controller
      */
     public function index()
     {
-        $grammarUses = GrammarUse::all();
+        $grammarUses = GrammarUse::all(); 
         return GrammarUseResource::collection($grammarUses);
     }
 
