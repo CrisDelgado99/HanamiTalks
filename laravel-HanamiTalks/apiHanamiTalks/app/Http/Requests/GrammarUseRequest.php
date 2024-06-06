@@ -24,7 +24,8 @@ class GrammarUseRequest extends FormRequest
         return [
             "title" => "required|max:40|min:5",
             "description" => "required|max:200|min:5",
-            "example" => "required|max:200|min:5"
+            "example" => "required|max:200|min:5",
+            "grammar_id" => "required|numeric"
         ];
     }
 }
