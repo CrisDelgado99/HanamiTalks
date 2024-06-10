@@ -3,10 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\VocabularyRequest;
-use App\Http\Resources\KanjiResource;
 use App\Http\Resources\VocabularyResource;
 use App\Models\Vocabulary;
-use Illuminate\Http\Request;
 
 class VocabularyController extends Controller
 {

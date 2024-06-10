@@ -5,7 +5,6 @@ namespace App\Http\Controllers;
 use App\Http\Requests\KanjiRequest;
 use App\Http\Resources\KanjiResource;
 use App\Models\Kanji;
-use Illuminate\Http\Request;
 
 class KanjiController extends Controller
 {

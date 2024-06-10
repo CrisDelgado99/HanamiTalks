@@ -2,7 +2,6 @@
 
 namespace Database\Seeders;
 
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 
@@ -32,6 +31,21 @@ class GrammarSeeder extends Seeder
                 "topicTitle" => "が Particle",
                 "description" => "The が particle is often used to indicate who or what performs the action of the verb. Unlike the は particle which indicates the topic, the が particle emphasizes the subject.",
                 "level" => 3
+            ],
+            [
+                "topicTitle" => "Numbers (かず)",
+                "description" => "In Japanese, numbers are created in a really easy way. They are read from the highest number to the lowest.",
+                "level" => 4
+            ],
+            [
+                "topicTitle" => "Time (じかん)",
+                "description" => "In japanese, we use sufixes to represent if we are talking about the hour, minutes, seconds...",
+                "level" => 5
+            ],
+            [
+                "topicTitle" => "Time (じかん) 2",
+                "description" => "These are the terms used for different hours and minutes of the day: ",
+                "level" => 6
             ]
         ];
 

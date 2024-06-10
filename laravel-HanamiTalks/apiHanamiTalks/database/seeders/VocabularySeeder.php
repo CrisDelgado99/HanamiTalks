@@ -224,6 +224,358 @@ class VocabularySeeder extends Seeder
                 "translation" => "December",
                 "topicTitle" => "Months",
                 "level" => 3
+            ],
+            [
+                "word" => "スペイン",
+                "kana" => "スペイン",
+                "romaji" => "supein",
+                "translation" => "Spain",
+                "topicTitle" => "Countries",
+                "level" => 4
+            ],
+            [
+                "word" => "中国",
+                "kana" => "ちゅうごく",
+                "romaji" => "chuugoku",
+                "translation" => "China",
+                "topicTitle" => "Countries",
+                "level" => 4
+            ],
+            [
+                "word" => "韓国",
+                "kana" => "かんこく",
+                "romaji" => "kankoku",
+                "translation" => "Korea",
+                "topicTitle" => "Countries",
+                "level" => 4
+            ],
+            [
+                "word" => "日本",
+                "kana" => "にほん",
+                "romaji" => "nihon",
+                "translation" => "Japan",
+                "topicTitle" => "Countries",
+                "level" => 4
+            ],
+            [
+                "word" => "フランス",
+                "kana" => "フランス",
+                "romaji" => "furansu",
+                "translation" => "France",
+                "topicTitle" => "Countries",
+                "level" => 4
+            ],
+            [
+                "word" => "イギリス",
+                "kana" => "イギリス",
+                "romaji" => "igirisu",
+                "translation" => "England",
+                "topicTitle" => "Countries",
+                "level" => 4
+            ],
+            [
+                "word" => "イタリア",
+                "kana" => "イタリア",
+                "romaji" => "itaria",
+                "translation" => "Italy",
+                "topicTitle" => "Countries",
+                "level" => 4
+            ],
+            [
+                "word" => "ドイツ",
+                "kana" => "ドイツ",
+                "romaji" => "doitsu",
+                "translation" => "Germany",
+                "topicTitle" => "Countries",
+                "level" => 4
+            ],
+            [
+                "word" => "アメリカ",
+                "kana" => "アメリカ",
+                "romaji" => "amerika",
+                "translation" => "United States",
+                "topicTitle" => "Countries",
+                "level" => 4
+            ],
+            [
+                "word" => "カナダ",
+                "kana" => "カナダ",
+                "romaji" => "kanada",
+                "translation" => "Canada",
+                "topicTitle" => "Countries",
+                "level" => 4
+            ],
+            [
+                "word" => "タイ",
+                "kana" => "タイ",
+                "romaji" => "tai",
+                "translation" => "Thailand",
+                "topicTitle" => "Countries 2",
+                "level" => 5
+            ],
+            [
+                "word" => "インド",
+                "kana" => "インド",
+                "romaji" => "indo",
+                "translation" => "India",
+                "topicTitle" => "Countries 2",
+                "level" => 5
+            ],
+            [
+                "word" => "モルドバ",
+                "kana" => "モルドバ",
+                "romaji" => "morudoba",
+                "translation" => "Moldova",
+                "topicTitle" => "Countries 2",
+                "level" => 5
+            ],
+            [
+                "word" => "スウェーデン",
+                "kana" => "スウェーデン",
+                "romaji" => "suweeden",
+                "translation" => "Sweden",
+                "topicTitle" => "Countries 2",
+                "level" => 5
+            ],
+            [
+                "word" => "ブラジル",
+                "kana" => "ブラジル",
+                "romaji" => "burajiru",
+                "translation" => "Brazil",
+                "topicTitle" => "Countries 2",
+                "level" => 5
+            ],
+            [
+                "word" => "アルゼンチン",
+                "kana" => "アルゼンチン",
+                "romaji" => "aruzenchin",
+                "translation" => "Argentina",
+                "topicTitle" => "Countries 2",
+                "level" => 5
+            ],
+            [
+                "word" => "ロシア",
+                "kana" => "ロシア",
+                "romaji" => "roshia",
+                "translation" => "Russia",
+                "topicTitle" => "Countries 2",
+                "level" => 5
+            ],
+            [
+                "word" => "オーストラリア",
+                "kana" => "オーストラリア",
+                "romaji" => "oosutoraria",
+                "translation" => "Australia",
+                "topicTitle" => "Countries 2",
+                "level" => 5
+            ],
+            [
+                "word" => "エジプト",
+                "kana" => "エジプト",
+                "romaji" => "ejiputo",
+                "translation" => "Egypt",
+                "topicTitle" => "Countries 2",
+                "level" => 5
+            ],
+            [
+                "word" => "南アフリカ",
+                "kana" => "みなみアフリカ",
+                "romaji" => "minami afurika",
+                "translation" => "South Africa",
+                "topicTitle" => "Countries 2",
+                "level" => 5
+            ],
+            [
+                "word" => "アジア",
+                "kana" => "アジア",
+                "romaji" => "ajia",
+                "translation" => "Asia",
+                "topicTitle" => "Continents",
+                "level" => 6
+            ],
+            [
+                "word" => "ヨーロッパ",
+                "kana" => "ヨーロッパ",
+                "romaji" => "yooroppa",
+                "translation" => "Europe",
+                "topicTitle" => "Continents",
+                "level" => 6
+            ],
+            [
+                "word" => "アフリカ",
+                "kana" => "アフリカ",
+                "romaji" => "afurika",
+                "translation" => "Africa",
+                "topicTitle" => "Continents",
+                "level" => 6
+            ],
+            [
+                "word" => "北アメリカ",
+                "kana" => "きたアメリカ",
+                "romaji" => "kita amerika",
+                "translation" => "North America",
+                "topicTitle" => "Continents",
+                "level" => 6
+            ],
+            [
+                "word" => "南アメリカ",
+                "kana" => "みなみアメリカ",
+                "romaji" => "minami amerika",
+                "translation" => "South America",
+                "topicTitle" => "Continents",
+                "level" => 6
+            ],
+            [
+                "word" => "オセアニア",
+                "kana" => "オセアニア",
+                "romaji" => "oseania",
+                "translation" => "Oceania",
+                "topicTitle" => "Continents",
+                "level" => 6
+            ],
+            [
+                "word" => "南極",
+                "kana" => "なんきょく",
+                "romaji" => "nankyoku",
+                "translation" => "Antarctica",
+                "topicTitle" => "Continents",
+                "level" => 6
+            ],
+            [
+                "word" => "北極",
+                "kana" => "ほっきょく",
+                "romaji" => "hokkyoku",
+                "translation" => "Arctic",
+                "topicTitle" => "Continents",
+                "level" => 6
+            ],
+            [
+                "word" => "コンピュータ",
+                "kana" => "コンピュータ",
+                "romaji" => "konpyu-ta",
+                "translation" => "Computer",
+                "topicTitle" => "Technology",
+                "level" => 7
+            ],
+            [
+                "word" => "ヘッドフォン",
+                "kana" => "ヘッドフォン",
+                "romaji" => "heddofon",
+                "translation" => "Headphones",
+                "topicTitle" => "Technology",
+                "level" => 7
+            ],
+            [
+                "word" => "マウス",
+                "kana" => "マウス",
+                "romaji" => "mausu",
+                "translation" => "Mouse",
+                "topicTitle" => "Technology",
+                "level" => 7
+            ],
+            [
+                "word" => "キーボード",
+                "kana" => "キーボード",
+                "romaji" => "kiiboodo",
+                "translation" => "Keyboard",
+                "topicTitle" => "Technology",
+                "level" => 7
+            ],
+            [
+                "word" => "スマートフォン",
+                "kana" => "スマートフォン",
+                "romaji" => "sumaato foon",
+                "translation" => "Smartphone",
+                "topicTitle" => "Technology",
+                "level" => 7
+            ],
+            [
+                "word" => "タブレット",
+                "kana" => "タブレット",
+                "romaji" => "taburetto",
+                "translation" => "Tablet",
+                "topicTitle" => "Technology",
+                "level" => 7
+            ],
+            [
+                "word" => "ラップトップ",
+                "kana" => "ラップトップ",
+                "romaji" => "rapputoppu",
+                "translation" => "Laptop",
+                "topicTitle" => "Technology",
+                "level" => 7
+            ],
+            [
+                "word" => "プリンター",
+                "kana" => "プリンター",
+                "romaji" => "purintaa",
+                "translation" => "Printer",
+                "topicTitle" => "Technology",
+                "level" => 7
+            ],
+            [
+                "word" => "カメラ",
+                "kana" => "カメラ",
+                "romaji" => "kamera",
+                "translation" => "Camera",
+                "topicTitle" => "Technology",
+                "level" => 7
+            ],
+            [
+                "word" => "携帯電話",
+                "kana" => "けいたいでんわ",
+                "romaji" => "keitai denwa",
+                "translation" => "Mobile phone",
+                "topicTitle" => "Technology 2",
+                "level" => 8
+            ],
+            [
+                "word" => "コンピュータープログラム",
+                "kana" => "コンピュータープログラム",
+                "romaji" => "konpyuutaa puroguramu",
+                "translation" => "Computer program",
+                "topicTitle" => "Technology 2",
+                "level" => 8
+            ],
+            [
+                "word" => "ウェブサイト",
+                "kana" => "ウェブサイト",
+                "romaji" => "uebusaito",
+                "translation" => "Website",
+                "topicTitle" => "Technology 2",
+                "level" => 8
+            ],
+            [
+                "word" => "電子書籍",
+                "kana" => "でんししょせき",
+                "romaji" => "denshi shoseki",
+                "translation" => "E-book",
+                "topicTitle" => "Technology 2",
+                "level" => 8
+            ],
+            [
+                "word" => "人工知能",
+                "kana" => "じんこうちのう",
+                "romaji" => "jinkou chinou",
+                "translation" => "Artificial intelligence",
+                "topicTitle" => "Technology 2",
+                "level" => 8
+            ],
+            [
+                "word" => "仮想現実",
+                "kana" => "かそうげんじつ",
+                "romaji" => "kasou genjitsu",
+                "translation" => "Virtual reality",
+                "topicTitle" => "Technology 2",
+                "level" => 8
+            ],
+            [
+                "word" => "データベース",
+                "kana" => "データベース",
+                "romaji" => "deeta beesu",
+                "translation" => "Database",
+                "topicTitle" => "Technology 2",
+                "level" => 8
             ]
         ];
 

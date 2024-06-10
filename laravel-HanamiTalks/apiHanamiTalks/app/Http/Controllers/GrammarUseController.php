@@ -5,7 +5,6 @@ namespace App\Http\Controllers;
 use App\Http\Requests\GrammarUseRequest;
 use App\Http\Resources\GrammarUseResource;
 use App\Models\GrammarUse;
-use Illuminate\Http\Request;
 
 class GrammarUseController extends Controller
 {
