@@ -1,0 +1,38 @@
+[
+    {
+        "grammarId": 1,
+        "topicTitle": "の Particle",
+        "description": "The の particle in Japanese is used to indicate possession or association between nouns. It can also be used to create noun modifiers.",
+        "level": 1
+    },
+    {
+        "grammarId": 2,
+        "topicTitle": "は Particle",
+        "description": "By placing the は particle after a noun, pronoun or grammatical subject, we can indicate that it is the topic of a sentence. Even though it is written like 'は', 'ha', it is pronounced as 'wa'.",
+        "level": 2
+    },
+    {
+        "grammarId": 3,
+        "topicTitle": "が Particle",
+        "description": "The が particle is often used to indicate who or what performs the action of the verb. Unlike the は particle which indicates the topic, the が particle emphasizes the subject.",
+        "level": 3
+    },
+    {
+        "grammarId": 4,
+        "topicTitle": "Numbers (かず)",
+        "description": "In Japanese, numbers are created in a really easy way. They are read from the highest number to the lowest.",
+        "level": 4
+    },
+    {
+        "grammarId": 5,
+        "topicTitle": "Time (じかん)",
+        "description": "In Japanese, we use suffixes to represent if we are talking about the hour, minutes, seconds...",
+        "level": 5
+    },
+    {
+        "grammarId": 6,
+        "topicTitle": "Time (じかん) 2",
+        "description": "These are the terms used for different hours and minutes of the day: ",
+        "level": 6
+    }
+]

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./../css/ppal.css">
+    <link rel="stylesheet" type="text/css" href="./../css/kana.css">
+    <script src="./../js/kanaView/kanaTables.js" defer></script>
+    <script type="module" src="./../js/kanaView/cardRotationKana.js"></script>
+    <script src="./../js/header.js" defer></script>
+</head>
+<body>
+    <!--HEADER//////////////////////////////////////////////////////////////////////////////////////////-->
+    <header class="header--with-nav">
+        <div class="logo">
+            <h1 class="logo">Hanami<label>Talks</label></h1>
+        </div>
+        <!--NAV---------------------------------------------------------------------------->
+        <nav id="nav" class="closed">
+            <ul id="ul" class="closed">
+                <li class="nav--current"><a href="./index.html" class="navLink">Kana</a></li>
+                <li><a href="./kanji.html" class="navLink">Kanji</a></li>
+                <li><a href="./grammar.html" class="navLink">Grammar</a></li>
+                <li><a href="./vocabulary.html" class="navLink">Vocabulary</a></li>
+            </ul>
+            <div class="button--toggleNav">
+                <svg id="svgOpen" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="#262626" d="M17 9.17a1 1 0 0 0-1.41 0L12 12.71L8.46 9.17a1 1 0 0 0-1.41 0a1 1 0 0 0 0 1.42l4.24 4.24a1 1 0 0 0 1.42 0L17 10.59a1 1 0 0 0 0-1.42"/></svg>
+                <svg id="svgClose" class="dispNone" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="#262626" d="m17 13.41l-4.29-4.24a1 1 0 0 0-1.42 0l-4.24 4.24a1 1 0 0 0 0 1.42a1 1 0 0 0 1.41 0L12 11.29l3.54 3.54a1 1 0 0 0 .7.29a1 1 0 0 0 .71-.29a1 1 0 0 0 .05-1.42"/></svg>
+            </div>
+        </nav>
+    </header>
+    <!--BODY//////////////////////////////////////////////////////////////////////////////////////////-->
+    <main>
+        <!--GENERAL DESCRIPTION-------------------------------------------------------------->
+        <div class="card--simple">
+            <h1>Kana</h1>
+            <p>Kana is a Japanese writing system designed to represent the sounds of the Japanese language. This system is syllabic, meaning that each character (kana) represents a specific syllable or sound. In Japanese, there are two main types of kana: hiragana and katakana.</p>
+            <p>Both writing systems, hiragana and katakana, play a fundamental role in the phonetic representation of Japanese, being essential for understanding and producing the language in various situations. These kana are used in a wide variety of texts, working together with the more complex characters of the Japanese writing system, known as kanji.</p>
+        </div>
+
+
+        <div class="container--row">
+            <!--HIRAGANA CARD-------------------------------------------------------------->
+            <div class="card--rotating hiragana" id="hiraganaCard">
+                <div class="card--full">
+                    <div class="card--folded card--full__front">
+                        <h1>Hiragana</h1>
+                        <p>The hiragana writing system has its roots in the Heian period (794-1185) in Japan. Although an exact date cannot be determined, it is believed that hiragana developed from stylized forms of Chinese characters, simplifying and adapting the strokes to represent Japanese sounds. Initially, it was primarily used by women for creative writing and personal correspondence.</p>
+                        <ul>
+                            <li>Hiragana is a set of characters that is primarily used to write Japanese words and verb endings.</li>
+                            <li>Each character represents a syllable and has a specific pronunciation.</li>
+                            <li>It is more rounded and is used to express more everyday words and grammar.</li>
+                        </ul>
+
+                        <div class="cornerSvg">
+                            <svg
+                                data-slot="icon"
+                                aria-hidden="true"
+                                fill="none"
+                                stroke-width="1.5"
+                                stroke="currentColor"
+                                viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M9 15 3 9m0 0 6-6M3 9h12a6 6 0 0 1 0 12h-3"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                ></path>
+                            </svg>
+                        </div>
+                    </div>
+
+                    </div>
+                    <div class="card--folded card--full__back">
+                        <h1>Hiragana</h1>
+                        <table class="hiragana-table">
+
+                        </table>
+
+                        <div class="cornerSvg dispNone" id="cornerSvgBack--Hiragana">
+                            <svg
+                            data-slot="icon"
+                            aria-hidden="true"
+                            fill="none"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                d="M9 15 3 9m0 0 6-6M3 9h12a6 6 0 0 1 0 12h-3"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            ></path>
+                        </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!--KATAKANA CARD-------------------------------------------------------------->
+            <div class="card--rotating katakana" id="katakanaCard">
+                <div class="card--full">
+                    <div class="card--folded card--full__front">
+                        <h1>Katakana</h1>
+                        <p>Katakana also originated around the same period as hiragana, but its development was influenced by Buddhist practices and the use of Chinese characters in the pronunciation of Sanskrit words. Over time, katakana evolved to be used in the writing of foreign words and names. During the Edo period (1603-1868), katakana began to be adopted more widely for various applications.</p>
+                        <ul>
+                            <li>
+                                Katakana also represents syllables, but it is
+                                primarily used to write foreign words, names, and
+                                technical terms.
+                            </li>
+                            <li>
+                                It has a more angular appearance and is used to
+                                express words that come from other languages.
+                            </li>
+                        </ul>
+                        <div class="cornerSvg">
+                            <svg
+                            data-slot="icon"
+                            aria-hidden="true"
+                            fill="none"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                d="M9 15 3 9m0 0 6-6M3 9h12a6 6 0 0 1 0 12h-3"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            ></path>
+                        </svg>
+                        </div>
+                    </div>
+                    <div class="card--folded card--full__back">
+                        <h1>Katakana</h1>
+                        <table class="katakana-table">
+
+                        </table>
+
+                        <div class="cornerSvg dispNone" id="cornerSvgBack--Katakana">
+                            <svg
+                            data-slot="icon"
+                            aria-hidden="true"
+                            fill="none"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                d="M9 15 3 9m0 0 6-6M3 9h12a6 6 0 0 1 0 12h-3"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            ></path>
+                        </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!--FOOTER//////////////////////////////////////////////////////////////////////////////////////////-->
+    <footer>
+        <p>&copy; Cristina Delgado Muñoz</p>
+    </footer>    
+
+</body>
+</html>
